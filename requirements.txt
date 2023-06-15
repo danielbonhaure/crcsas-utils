@@ -1,0 +1,7 @@
+logger
+netCDF4
+numpy
+pandas
+rasterio --no-binary=rasterio
+rioxarray
+xarray
