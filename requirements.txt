@@ -2,6 +2,9 @@ logger
 netCDF4
 numpy
 pandas
+geopandas
 rasterio --no-binary=rasterio
 rioxarray
 xarray
+psycopg2
+sqlalchemy
