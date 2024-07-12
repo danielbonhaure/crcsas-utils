@@ -17,4 +17,4 @@ estaciones_gdf = geopandas.GeoDataFrame(
     estaciones_df, geometry=geopandas.points_from_xy(estaciones_df.lon_dec, estaciones_df.lat_dec), crs="EPSG:4326"
 )
 
-estaciones_gdf.to_file('/tmp/estaciones.shp')
+estaciones_gdf.to_file('/data/estaciones.shp')
